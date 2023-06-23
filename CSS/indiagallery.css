@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    transition: all 2s;
+}
+#header{
+    width: 100%;
+    height: 80vh;
+    background-color: wheat;
+    background-size: 100% 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 2s;
+    position: relative;
+}
+#left{
+    font-size: 100px;
+    position: absolute;
+    left: 10px;
+    background-color:transparent;
+    border: none;
+}
+#right{
+    font-size: 100px;
+    position: absolute;
+    right: 10px;
+    background-color:transparent;
+    border: none;
+}
+#h{
+    font-size: 150px;
+    letter-spacing: 50px;
+    color: hotpink;
+    text-shadow: 5px 5px 5px yellowgreen;
+}
+#pho{
+    position: absolute;
+    top: 600px;
+    background-image: linear-gradient(gray,rgba(21, 21, 21, 0.305));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+    column-gap: 50px;
+    padding-top: 30px; 
+    }
+.images{
+    border-radius:10px;
+    box-shadow: 5px 5px 5px black;
+}
+.images:hover{
+    transform: scale(1.2)
+}
+#home{
+    font-size: 30px;
+    display: flex;
+    list-style: none;
+}
+#navbar{
+    position: absolute;
+    top: 0px;
+    display: flex;
+}
+#hom{
+    position: absolute;
+    left: 30px;
+    top: 25px;
+}
+#inf{
+    position: absolute;
+    left: 150px;
+    top: 25px;
+}
+#log{
+    position: absolute;
+    left: 88vw;
+    top: 25px;
+}
+#big{
+    position: fixed;
+    background-image: linear-gradient(rgba(128, 128, 128, 0.974),rgba(0, 0, 0, 0.985));
+    width: 60vw;
+    height: 70vh;
+    top: 150px;
+    left: 250px;
+    border-radius: 20px;
+} 
+#close{
+    font-size: 40px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    display: flex;
+    color: whitesmoke;
+}
+ #gib{
+    width: 30vw;
+    height: 50vh;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    transform: scale(1.0);
+    border-radius: 20px;
+ }
+ #container3{
+    width: 100%;
+    height: 50px;
+    background-color: wheat;
+    position: absolute;
+    top: 1331px;
+    display: flex;
+    align-items: center;
+  }
+  #symbol{
+    position: absolute;
+    
+    right: 0px;
+  }
+  #tit{
+    font-size: 65px;
+    position: absolute;
+    left: 570px;
+    top: 100px;
+    color: whitesmoke;
+  }
+  #p{
+    position: absolute;
+    left: 570px;
+    top: 200px;
+    color: whitesmoke;
+  }
+  

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Document</title>
+   <link rel="stylesheet" href="../CSS/singaporegallery.css">
+   <script src="../JAVASCRIPT/singaporegallery.js" defer></script>
+   <script src="https://kit.fontawesome.com/9272888c13.js" crossorigin="anonymous"></script>
+</head>
+<body onload="header()">
+    <div id="header">
+        <h1 id="h">Singapore<br> Gallery</h1>
+   <button id="left"  onclick="left()"><</button>
+   <button id="right" onclick="right()">></button>
+    </div>
+    <div id="navbar">
+        <ul id="home">
+            <a href="../HTML/homep.html"><li  id="hom"  class="li">HOME</li></a>
+            <a href="../HTML/info.html"><LI   id="inf" class="li">INFO</LI></a>
+            <a href="../index.html"><LI class="li" id="log">LOGOUT</LI></a>    
+        </ul>
+      </div>
+    <div id="pho">
+        <img class="images" onclick="openTheImage(0,'Hainanese chicken rice','Steamed chicken served with rice cooked in chicken stock. This all-time favourite dish makes for a quick, fulfilling lunch. The quality of chicken stock is crucial to this dish, and you can tell by the steamed rice oozing with flavour and a fragrant aroma. Pour some dipping sauce over the chicken and give it a go.')">
+        <img class="images" onclick="openTheImage(1,'Chilli <br> crab','Hard-shell crabs cooked in semi-thick gravy with a tomato chilli base. The steamed crabs are partially cracked, then lightly stir-fried in a paste comprising of chilli sauce, ketchup and eggs. Despite its name, chilli crab is not all that spicy. Bread is normally ordered to soak up the gravy, so dig in with both hands!')">
+        <img class="images" onclick="openTheImage(2,'Laksa','Rice noodles in spicy coconut curry soup with shrimp, fish cakes, egg and chicken meat – a cross between Chinese and Malay cuisine. Laksa also has many variants, but the one in Singapore is katong laksa, with cut-up noodles. Cockles and tofu puffs are sometimes added.')">
+        <img class="images" onclick="openTheImage(3,'Char kuay <br> teow','Broad white noodles fried with black Soya sauce, bean sprouts, fish cake, clams and Chinese sausage. You will find this dish in hawker centres and restaurants. Skilled chefs will add a smoky taste to the dish by cooking the noodles at a high temperature.')">
+        <img class="images" onclick="openTheImage(4,'Hokkien prawn mee','Stir-fried Hokkien noodles with prawns, slices of chicken or pork, squid and fish cake, seasoned with soy sauce, vinegar and chili. Each serving comes with sambal sauce and a lime wedge, to tone down the oily taste. The Singapore version uses thick, flat egg noodles.')">
+        <img class="images" onclick="openTheImage(5,'Barbecued <br> stingray','Originating in the streets, barbecued stingray has become a popular seafood dish served at hawker stalls. The classic version features stingray meat slated in thick sambal sauce – a spicy condiment with diced tomatoes, chilies and shrimp paste as base ingredients – then wrapped in banana leaf to be cooked slowly on a grill.')">
+        <img class="images" onclick="openTheImage(6,'Fish head  <br> curry','A huge fish head and vegetables cooked in a curry and served with rice or bread. Usually accompanied by a glass of calamansi or local lime juice. Its origins are in South Indian, with Chinese and Malay influences. In some versions, tamarind juice is added to give a sweet-sour taste.')">
+        <img class="images" onclick="openTheImage(7,'Satay','Skewered grilled meat served with rice cake (ketupat), peanut sauce and cucumber-chili relish. This popular side dish makes an excellent starter or party platter. It has a strong turmeric scent and flavour, as this spice is the key marinade ingredient. Choose from pork, chicken, beef or mutton.')">
+        <img class="images" onclick="openTheImage(8,'Char siew <br> meats','Char siew meats make a popular Singaporean dish of Chinese origin, made up of barbequed red pork and roasted pork belly in a thick sauce. The meat is chopped in front of you and laid out on either rice or noodles.')">
+        <img class="images" onclick="openTheImage(9,'Oyster <br> omelette','An egg omelette mixed with flour and fried with a generous helping of small oysters garnished with coriander leaves, crispy bean sprouts, and a sweet, spicy sauce. Depending on how you like it cooked, your oyster omelette can be soft or crispy. ')">
+    </div> 
+    <div id="big" style="display: none;">
+        <h1 id="close"  onclick="clos()">X</h1>
+        <img  id="gib" >
+        <h1 id="tit"></h1>
+        <p id="p"></p>
+    </div>
+    <div id="container3">
+        <i class="fa-solid fa-copyright"></i>
+          <span id="span">The CopyRight belongs to Chiru Karanam</span>
+              <div id="symbol">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.snapchat.com/" target="_blank"><i  class="fa-brands fa-snapchat"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+      </div>
+</body>
+</html>

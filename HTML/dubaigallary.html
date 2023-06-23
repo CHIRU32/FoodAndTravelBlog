@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Document</title>
+   <link rel="stylesheet" href="../CSS/dubaigallary.css">
+   <script src="../JAVASCRIPT/dubaigallary.js" defer></script>
+   <script src="https://kit.fontawesome.com/9272888c13.js" crossorigin="anonymous"></script>
+</head>
+<body onload="header()">
+    <div id="header">
+        <h1 id="h">Dubai<br> Gallery</h1>
+   <button id="left"  onclick="left()"><</button>
+   <button id="right" onclick="right()">></button>
+    </div>
+    <div id="navbar">
+        <ul id="home">
+            <a href="../HTML/homep.html"><li  id="hom"  class="li">HOME</li></a>
+            <a href="../HTML/info.html"><LI   id="inf" class="li">INFO</LI></a>
+            <a href="../index.html"><LI class="li" id="log">LOGOUT</LI></a>    
+        </ul>
+      </div>
+    <div id="pho">
+        <img class="images" onclick="openTheImage(0,'Harees','Harees is one of the most famous dishes in Dubai. It can often be found on many an Emirati dinner table, as well as on the menus in some of Dubai finest restaurants. Its preparation requires a great deal of time and skill, so it commonly presented at special occasions, weddings, and banquets.')">
+        <img class="images" onclick="openTheImage(1,'Majboos','The dish includes basmati rice served with various types of meat. Emirati majboos are frequently served with chicken, with the distinctive flavours of powerful Arabian spices and assorted vegetables. Chicken or meat majboos are served at all kinds of family events and it also features prominently at Iftar meals during Ramadan.')">
+        <img class="images" onclick="openTheImage(2,'Luqaymat','hese homely sweet pastries are shaped into delicate golden balls that melt in the mouth. They’re made from flour, sesame seeds, turmeric, milk, sugar, salt, and a little yeast. The batter is kneaded and then left to rest for a while, before being fried in oil and drizzled with syrup. Some believe that luqaymat originated in the Arab world, where it’s known as halwa al-luqaymat or ’awama, although the Greeks too have a version which they call loukoumades. The honey-like syrup (sharbat) used to finish luqaymat originally comes from Turkey.')">
+        <img class="images" onclick="openTheImage(3,'Madrouba','Madrouba is one of Dubai’s most popular foods, and it also has its fans in Bahrain and Oman, too. Madrouba with chicken is the best-known variety, though it’s also served with fish, lamb, and crushed grains. It’s prepared using rice, garlic, onion, tomatoes, yoghurt and seasoning. Butter is also used in moderation.')">
+        <img class="images" onclick="openTheImage(4,'Thareed','Emirati thareed (or fareed) with meat is characteristic of Gulf cuisine in general and is particularly typical of Dubai. It’s made with bread and vegetable chunks soaked in a meat broth. The dish is served at special occasions and it’s rich in vitamins and protein.Thareed is made with meat and its broth contains wholewheat bread and vegetables.')">
+        <img class="images" onclick="openTheImage(5,'Meat Biryani','Biryani is a dish that found throughout the Gulf region and Dubai is no exception. Originating in Indian cuisine, this dish spread first to East Asia before arriving in the Arab world, where it became very popular thanks to its delicious savoury taste. It’s made with Indian spices renowned for their strong aromas and flavours.')">
+        <img class="images" onclick="openTheImage(6,'Chicken saloona','Despite the influx of western cuisine into restaurants in the Emirates, saloona has kept its place in the hearts of the people of the United Arab Emirates, and is proudly featured on many a dinner table. So, when you’re in Dubai, make sure you discover this Emirati stew, known for its simple preparation, wonderfully delicious taste and amazing flavour.')">
+        <img class="images" onclick="openTheImage(7,'Oozie','Oozie is one of the best-known dishes from the Gulf region. It features prominently at special occasions such as wedding parties and festive celebrations. Oozie with meat also has a special presence at the Emirati meal table during Ramadan, when family and friends gather together to break their fast.')">
+        <img class="images" onclick="openTheImage(8,'Jasheed','It’s made from small sharks, or other fish if these aren’t available, and eaten with rice. It’s served with white ‘aysh (rice) and clarified butter. The fish is covered with water and cooked with spices for around 30 minutes until the skin peels off. It’s then cleaned and put into another pot with bazaar spice mix, cinnamon, ginger, ground dried lemon, cardamom, chopped onion, and garlic. The next step is to finely chop the pepper, shred the fish, and mix it with a blend of spices for around 15 minutes. The mix is then cooked until well done, covered, and it’s then ready to serve.')">
+        <img class="images" onclick="openTheImage(9,'Tahta malih','Tahta malih is a traditional dish of Dubai thats still popular today. Its original flavours have been preserved, just like the fish that is used to make it. Preserved, salted fish, known as malih, was traditionally used in the Emirates when there was little fresh fish or other food available.')">
+    </div> 
+    <div id="big" style="display: none;">
+        <h1 id="close"  onclick="clos()">X</h1>
+        <img  id="gib" >
+        <h1 id="tit"></h1>
+        <p id="p"></p>
+    </div>
+    <div id="container3">
+        <i class="fa-solid fa-copyright"></i>
+          <span id="span">The CopyRight belongs to Chiru Karanam</span>
+              <div id="symbol">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.snapchat.com/" target="_blank"><i  class="fa-brands fa-snapchat"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+      </div>
+</body>
+</html>

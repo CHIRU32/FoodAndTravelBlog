@@ -1,0 +1,232 @@
+*{
+    padding: 0px;
+    margin: 0px;  
+    scroll-behavior: smooth; 
+}
+#container{
+    width: 100%;
+    height:800px;
+    background-image:linear-gradient(rgba(70, 68, 68, 0.582),rgba(17, 16, 16, 0.188)),url(../assets/images/background-images.png);
+    background-repeat: no-repeat;
+    background-size: 100% 800px; 
+    box-shadow: 5px 5px 10px black;
+    position: relative;
+}
+#nv{
+    width:700px;
+    height:600px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+    align-items: center;
+}
+#home{
+    font-size: 30px;
+    display: flex;
+    list-style: none;
+}
+.li{
+    padding-left: 30px;
+    padding-top: 15px;
+    transition: all 1s;
+    color: white;
+}
+#log{
+    position: absolute;
+    right: 30px;
+}
+.li:hover{
+    transform: scale(1.3);
+    color: gold;
+}
+.place{
+ width: 250px;
+ height: 250px;
+ border: 2px solid white;
+ background-color: black;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: transparent;
+ transition: transform 0.5s;
+ text-transform: uppercase;
+ border-radius: 10px;
+ filter: blur(0.8px);
+ transition: all 1s;
+}
+.place:hover{
+    transform: scale(1.2);
+    color: black;
+    box-shadow: 5px 5px 10px black;
+    filter: none;
+}
+#place1{
+    background-image: url(../assets/images/india.jpg);
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+#place2{
+    background-image: url(../assets/images/singapore1.webp);
+    background-size:  100% 250px; 
+    background-repeat: no-repeat;
+    font-size: 30px;
+}
+#place3{
+    background-image: url(../assets/images/dubai.png);
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+    font-size: 30px;
+}
+#place4{
+    background-image: url(../assets/images/japan.png);
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+    font-size: 30px;
+}
+#ekp{
+    font-size: 70px;
+    padding-top: 130px;
+    text-shadow: 5px 5px 10px white;    
+}
+#container2{
+width: 100%;
+background-image: linear-gradient(rgba(135, 207, 235, 0.452),rgba(245, 245, 245, 0.337));
+position: absolute;
+}
+#india{
+    width: 100%;
+    background-color: yellow;
+    clip-path: polygon(60% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+#cont1,#cont2,#cont3,#cont4{
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  overflow: hidden;
+}
+#cont1{
+  top: 0px;
+}
+#cont2{
+  top: 800px;
+}
+#cont3{
+  top: 1600px;
+}
+#cont4{
+  top: 2400px;
+}
+
+#singapore{
+    width: 100%;
+    background-color: yellow;
+    clip-path: polygon(0 0, 29% 0, 100% 100%, 0% 100%);
+}
+#japan{
+    width: 100%;
+    background-color: yellow;
+    clip-path: polygon(60% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+#dubai{
+    width: 100%;
+    background-color: yellow;
+    clip-path: polygon(0 0, 29% 0, 100% 100%, 0% 100%);
+}
+iframe{
+    width: 100%;
+    height: 400px;
+}
+video{
+    width: 100%;
+    background-size: 100% 400px;
+}
+
+#ind{
+    position: absolute;
+    left: 170px;
+    top: 0px;
+    font-size: 100px;
+    letter-spacing: 20px;
+    color: goldenrod;
+    text-shadow:3px 5px 10px black;
+  }
+  #p1{
+    text-indent: 40px;
+    position: absolute;
+    top: 170px;
+  }
+  #sin{
+    position: absolute;
+    right: 50px;
+    font-size: 100px;
+    letter-spacing: 20px;
+    color: goldenrod;
+    text-shadow:3px 5px 10px black;
+  }
+  #p2{
+    position: absolute;
+    left: 750px;
+    top: 150px;
+    text-indent: 50px;
+  }
+  #jap{
+    position: absolute;
+    left: 150px;
+    font-size: 100px;
+    letter-spacing: 20px;
+    color: goldenrod;
+    text-shadow:3px 5px 10px black;
+  }
+  #p3{
+    position: absolute;
+    top: 150px;
+  }
+  #dub{
+    position: absolute;
+    right:150px;
+    font-size: 100px;
+    letter-spacing: 20px;
+    color: goldenrod;
+    text-shadow:3px 5px 10px black;
+  }
+  #p4{
+    position: absolute;
+    top: 150px;
+    left: 750px;
+  }
+ 
+  #container3{
+    width: 100%;
+    height: 50px;
+    background-color: wheat;
+    position: absolute;
+    bottom: -10px;
+    display: flex;
+    align-items: center;
+  }
+  #symbol{
+    position: absolute;
+    right: 0px;
+  }
+  #to{
+    width: 5%;
+    height: 80px;
+    background-color: aqua;
+    position: fixed;
+    bottom: 80px;
+    right: 50px;
+    border-radius: 200px;
+ }
+ #pot{
+   font-size: 50px;
+   position: absolute;
+   right: 20px;
+   bottom: 15px;
+   
+ }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Document</title>
+   <link rel="stylesheet" href="../CSS/japangallery.css">
+   <script src="../JAVASCRIPT/japangallary.js" defer></script>
+   <script src="https://kit.fontawesome.com/9272888c13.js" crossorigin="anonymous"></script>
+</head>
+<body onload="header()">
+    <div id="header">
+        <h1 id="h">Japan<br> Gallery</h1>
+   <button id="left"  onclick="left()"><</button>
+   <button id="right" onclick="right()">></button>
+    </div>
+    <div id="navbar">
+        <ul id="home">
+            <a href="../HTML/homep.html"><li  id="hom"  class="li">HOME</li></a>
+            <a href="../HTML/info.html"><LI   id="inf" class="li">INFO</LI></a>
+            <a href="../index.html"><LI class="li" id="log">LOGOUT</LI></a>    
+        </ul>
+      </div>
+    <div id="pho">
+        <img class="images" onclick="openTheImage(0,'Tempura','Crispy, tasty, somewhat healthy and cheap, tempura is one of the most popular dishes in Japan. Your choice of prawns, fish, squid, vegetables or tofu are lightly battered and quickly deep-fried to prevent the loss of nutritious vitamins and minerals. Tempura may be served on its own, but is often presented on top of noodles or rice, with a variety of dipping sauces.')">
+        <img class="images" onclick="openTheImage(1,'Noodles','Noodles are a delicious and cheap alternative to a rice-based meal. Made from buckwheat flour, soba noodles have a greyish colour and are served hot with broth or cold with a dipping sauce. Udon are thick wheat noodles that are served hot or cold with soy or fish soup. ')">
+        <img class="images" onclick="openTheImage(2,'Sushi','Sushi nigiri is the most well-known variety with a slice of raw fish or egg or vegetable perched atop a small bundle of rice. Maki sushi is the variety that is rolled in ‘nori’ seaweed. Temaki sushi is cone-shaped and full of assorted ingredients. Inari sushi features deep-fried tofu wrapped around the rice. Among the thousands of sushi shops in Tokyo alone you are sure to find a variety that suits you.         ')">
+        <img class="images" onclick="openTheImage(3,'Okonomiyaki','Okonomiyaki is a fun, interactive way of dining, perfect for groups. Basically, okonomiyaki is a batter that is mixed with all your favourite ingredients then fried like a pancake on the grill right in front of you. Okonomiyaki translates as ‘grill your favourite’ and as such there is great variety in terms of ingredients available – from seafood, beef, chicken and bacon, to tofu, cheese, corn, onion and other vegetables.')">
+        <img class="images" onclick="openTheImage(4,'Teppanyaki','Teppanyaki brings entertainment to the dinner table. You re seated around the chef and his large grill plate and watch the chef skillfully prepare your food right in front of you. This theatrical demonstration of the chef s culinary skills is part of the beauty of teppan. In many of the larger hotels the teppan chefs actually perform amazing stunts, juggling with their razor-sharp knives, catching tiny morsels with chopsticks and generally wowing their audience of diners. ')">
+        <img class="images" onclick="openTheImage(5,'Teishoku - a set meal','Set meals are very popular, particularly at lunch time, and most restaurants offer set meals of some kind. Typically, a set meal includes rice, pickles, soup and a main dish of fish, seafood, vegetables or meat. With lots of food and cheap prices the teishoku dining option is a great introduction to everyday Japanese food.')">
+        <img class="images" onclick="openTheImage(6,'Yakiniku','This is another fun, interactive way of eating in Japan. Yakiniku hails from Korea and is essentially a do-it-yourself barbecue with bite-sized pieces of beef, pork and vegetables that you cook on the grill in front of you. The thin slices of meat and vegetable cook quickly and are then doused into a soy-based dipping sauce flavoured with sesame, garlic and sake. ')">
+        <img class="images" onclick="openTheImage(7,'Yakitori','The Japanese believe yakitori is the perfect accompaniment to beer, and in the late hours of the night yakitori stands are always full of life. Yakitori translates as grilled chicken and some restaurants serve up to 20 varieties of the skewers, each a different part of the chicken, including breast meat, wings, heart, parson’s nose, and skin. Your yakitori can be flavoured with shio (salt), or tare (a sweet-salty sauce). Yakitori is a very popular and cheap snack food, usually only 100-200 yen per skewer.')">
+        <img class="images" onclick="openTheImage(8,'Shabu Shabu and <br> Sukiyaki','Shabu shabu is another fun dining option for groups and families. After ordering plates of thinly sliced meat and vegetables, a pot filled with boiling soup is placed on the table. Using chopsticks each diner picks up a slice of meat and swishes it around in the soup until it cooks. The meat is then dipped into a salty shabu shabu sauce and enjoyed before swishing the next piece. Predominately beef based, shabu shabu can also include seafood and pork.')">
+        <img class="images" onclick="openTheImage(9,'Fugu <br> (blowfish)','The seas surrounding Japan are home to several hundred types of blowfish and it’s believed the Japanese have been eating the poisonous fish for as long as 15,000 years.Be sure to try fugu while you are in Japan – if not for its delicate taste, then for bragging rights – and then only from a licensed expert. Chefs must train for many years to learn how to prepare these potentially dangerous sea creatures. Once prepared, fugu can be eaten in a number of ways, including fresh slices of sashimi. boiled in a hot pot or grilled with vegetables.  ')">
+    </div> 
+    <div id="big" style="display: none;">
+        <h1 id="close"  onclick="clos()">X</h1>
+        <img  id="gib">
+        <h1 id="tit"></h1>
+        <p id="p"></p>
+    </div>
+    <div id="container3">
+        <i class="fa-solid fa-copyright"></i>
+          <span id="span">The CopyRight belongs to Chiru Karanam</span>
+              <div id="symbol">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.snapchat.com/" target="_blank"><i  class="fa-brands fa-snapchat"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+      </div>
+</body>
+</html>

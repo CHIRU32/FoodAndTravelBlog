@@ -1,0 +1,198 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    transition: all 0.5s;
+    scroll-behavior: smooth;
+}
+#container{
+    width: 100%;
+    height:800px;
+    background-image:linear-gradient(rgba(70, 68, 68, 0.582),rgba(17, 16, 16, 0.188)),url(../assets/images/background-images.png);
+    background-repeat: no-repeat;
+    background-size: 100% 800px; 
+    box-shadow: 5px 5px 10px black;
+    position: relative;
+}
+#nv{
+    width:700px;
+    height:600px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+    align-items: center;
+}
+#home{
+    font-size: 30px;
+    display: flex;
+    list-style: none;
+}
+.li{
+    padding-left: 30px;
+    padding-top: 15px;
+    transition: all 1s;
+    color: white;
+}
+#log{
+    position: absolute;
+    right: 30px;
+}
+.li:hover{
+    transform: scale(1.3);
+    color: gold;
+}
+.place{
+ width: 250px;
+ height: 250px;
+ border: 2px solid white;
+ background-color: black;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: transparent;
+ transition: transform 0.5s;
+ text-transform: uppercase;
+ border-radius: 10px;
+ filter: blur(0.8px);
+}
+.place:hover{
+    transform: scale(1.2);
+    color: black;
+    box-shadow: 5px 5px 10px black;
+    filter: none;
+}
+#place1{
+    background-image: url(../assets/images/india.jpg);
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+#place2{
+    background-image: url(../assets/images/singapore1.webp);
+    background-size:  100% 250px; 
+    background-repeat: no-repeat;
+    font-size: 30px;
+}
+#place3{
+    background-image: url(../assets/images/dubai.png);
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+    font-size: 30px;
+}
+#place4{
+    background-image: url(../assets/images/japan.png);
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+    font-size: 30px;
+}
+#ekp{
+    font-size: 70px;
+    padding-top: 130px;
+    text-shadow: 5px 5px 10px white;    
+}
+#container2{
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.604),rgba(128, 128, 128, 0.522));
+    position: relative;
+}
+#box{
+    width: 70%;
+    height: 700px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.604),rgba(128, 128, 128, 0.522));
+    position: absolute;
+    left: 250px;
+    top: 50px;
+    box-shadow: 4px 3px 10px black;
+    border-radius: 10px;
+}
+#img{
+    width: 50%;
+    height: 600px;
+    background-image: url(../assets/images/IMG_4480.JPG);
+    background-size: 100%;
+    position: absolute;
+    top: 55px;
+    left: 40px;
+    box-shadow: 4px 3px 10px burlywood;
+    border-radius: 10px;
+}
+#mat{
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    left: 630px;
+    top: 30px;
+    font-size: 40px;
+    text-shadow: 5px 5px 10px white ;
+}
+#img:hover{
+    transform: scale(1.1);
+}
+#chiru{
+    font-size: 20px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0px; 
+}
+#container3{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.604),rgba(128, 128, 128, 0.522));;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    
+}
+#tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+.th{
+    border: 2px solid greenyellow;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+#container4{
+    width: 100%;
+    height: 50px;
+    background-color: wheat;
+    position: absolute;
+    bottom: -10px;
+    display: flex;
+    align-items: center;
+  }
+  #symbol{
+    position: absolute;
+    right: 0px;
+  }
+  #to{
+     width: 5%;
+     height: 80px;
+     background-color: aqua;
+     position: fixed;
+     bottom: 80px;
+     right: 50px;
+     border-radius: 200px;
+     scroll-behavior: smooth;
+  }
+  #pot{
+    font-size: 50px;
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+    scroll-behavior: smooth;
+  }
